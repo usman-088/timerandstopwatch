@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    background: #333;
+    color: #bbb;
+    font-family: Menlo;
+  }
+  
+  .buttons {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .center {
+    color: #bbb;
+    font-size: 4vw;
+    margin: 0 0.5em;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .center:first-child {
+      margin-left: 0;
+  }
+  
+  .center:last-child {
+      margin-right: 0;
+  }
+  
+  .center:hover {
+    color: white;
+  }
+  
+  .stopwatch {
+    font-size: 20vw;
+    text-align: center;
+  }
+  p{
+    display: inline-block;
+  }
